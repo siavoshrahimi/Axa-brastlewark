@@ -1,4 +1,6 @@
 import React,{Component} from 'react';
+//css
+import './Detail.scss';
 
 class Detail extends Component{
   render(){
@@ -7,29 +9,35 @@ class Detail extends Component{
     return(
       <div className='detail-wrapper'>
         <div className='detail'>
-          <div className='profile-photo'>
-            <img src={thumbnail} alt={name}/>
+          <div className="left-column">
+            <div className='profile-photo'>
+              <img src={thumbnail} alt={name}/>
+            </div>
           </div>
-          <div className='name-age'>
-            <span>Name:{name}</span>
-            <span>Age:{age}</span>
-          </div>
-          <div className='all-detail'>
-            <span>Hair color:{hair_color}</span>
-            <span>Weight:{weight}</span>
-            <span>Height:{height}</span>
-          </div>
-          <div className='jobs'>
-            <span>professions:</span>
-            {professions.map(job =>(
-              <span className='job' key={job}>{job}</span>
-            ))}
-          </div>
-          <div className='friends-detail'>
-            <span>Friends:</span>
-            {friends.map(friend =>(
-              <span className='fr' key={friend}>{friend}</span>
-            ))}
+          <div className="right-column">
+            <div className='detail-name'>
+              <h2>{name}</h2>
+            </div>
+            <div className='age-hair'>
+              <span>Age:{age}</span>
+              <span>Hair color:{hair_color}</span>
+            </div>
+            <div className='body-shape'>
+              <span>Weight:{weight}</span>
+              <span>Height:{height}</span>
+            </div>
+            <div className='jobs'>
+              <span>professions:</span>
+              {professions.map(job =>(
+                <span className='job' key={job}>{job}</span>
+              ))}
+            </div>
+            <div className='friends-detail'>
+              <span>Friends:</span>
+              {friends[0]? friends.map(friend =>(
+                <span className='fr' key={friend}>{friend}</span>
+              )):<span>Has no friends</span>}
+            </div>
           </div>
         </div>
       </div>

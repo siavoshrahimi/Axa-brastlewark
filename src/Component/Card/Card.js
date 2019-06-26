@@ -48,7 +48,7 @@ const card = ({allData,profileInfo}) =>{
                                key={friend}>
                     <img className='friends-img' src={friend.thumbnail} alt={friend.name}/>
                   </Link>
-                }): <span>Has no any friends</span>}
+                }): <span>Has no friends</span>}
             </div>
 
           </div>

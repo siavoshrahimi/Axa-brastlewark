@@ -57,3 +57,19 @@ button[disabled]{
     background: transparent !important;
   }
 }
+@media (min-width: 620px) and (max-width: 959px) {
+  .pagination{
+    left: 44%;
+  }
+}
+@media (max-width: 619px){
+  .pagination{
+    position: relative;
+    margin-left: 0;
+    left: 0;
+    .pageNumber{
+      padding: 0 8px;
+      font-size: 9px;
+    }
+  }
+}

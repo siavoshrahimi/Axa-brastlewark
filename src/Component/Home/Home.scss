@@ -17,3 +17,10 @@
     width: 100%;
   }
 }
+@media (max-width: 619px) {
+  .wrapper {
+    .search {
+      font-size: 0.65em;
+    }
+  }
+}
