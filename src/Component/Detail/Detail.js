@@ -4,8 +4,9 @@ import './Detail.scss';
 
 class Detail extends Component{
   render(){
-    const {thumbnail,age,professions,friends,name,hair_color,weight,height,} = this.props.location.state.profileInfo;
-    console.log(this.props);
+    const {thumbnail,age,professions,friends,name,hair_color,weight,height,} =
+      this.props.location.state.friend ? this.props.location.state.friend
+        : this.props.location.state.profileInfo;
     return(
       <div className='detail-wrapper'>
         <div className='detail'>

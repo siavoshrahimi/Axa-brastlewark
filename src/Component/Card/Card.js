@@ -43,9 +43,9 @@ const card = ({allData,profileInfo}) =>{
             <div className='friends-img-wrapper'>
               {profileFriend[0] ?
                 profileFriend.map(friend =>{
-                  return <Link to={{pathname:`/detail/${name}`,state:{profileInfo}}}
+                  return <Link to={{pathname:`/detail/${name}`,state:{friend}}}
                                title={friend.name}
-                               key={friend}>
+                               key={friend.id}>
                     <img className='friends-img' src={friend.thumbnail} alt={friend.name}/>
                   </Link>
                 }): <span>Has no friends</span>}

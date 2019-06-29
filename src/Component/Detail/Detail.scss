@@ -36,17 +36,17 @@
       .age-hair {
         display: flex;
         justify-content: space-around;
-        color: #676666;
+        color: #a5a4a3;
         margin-top: -75px;
       }
       .body-shape {
         display: flex;
         justify-content: space-around;
-        color: #e4ab6b;
+        color: #a5a4a3;
       }
       .jobs {
         display: flex;
-        color: #43c7af;
+        color: #a5a4a3;
         flex-wrap: wrap;
         span{
           margin-left: 10px;
@@ -55,12 +55,43 @@
       .friends-detail {
         display: flex;
         flex-wrap: wrap;
-        color: #b91979;
+        color: #a5a4a3;
         span{
           margin-left: 10px;
         }
       }
     }
 
+  }
+}
+@media (max-width:1100px) {
+  .detail-wrapper{
+    width: 80%;
+    .detail{
+      flex-flow: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 13px;
+      .left-column{
+        .profile-photo{
+          height: 200px;
+          width: 200px;
+          text-align: center;
+          display: flex;
+          img{
+            border-radius: 50%;
+          }
+        }
+      }
+      .right-column{
+        height: inherit;
+        padding: 0;
+        font-size: small;
+        .age-hair {
+          margin-top: 0;
+        }
+      }
+
+    }
   }
 }
