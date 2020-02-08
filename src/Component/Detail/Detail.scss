@@ -35,18 +35,18 @@
       }
       .age-hair {
         display: flex;
-        justify-content: space-around;
-        color: #a5a4a3;
+        justify-content: space-between;
+        color: #575756;
         margin-top: -75px;
       }
       .body-shape {
         display: flex;
-        justify-content: space-around;
-        color: #a5a4a3;
+        justify-content: space-between;
+        color: #575756;
       }
       .jobs {
         display: flex;
-        color: #a5a4a3;
+        color: #575756;
         flex-wrap: wrap;
         span{
           margin-left: 10px;
@@ -55,7 +55,7 @@
       .friends-detail {
         display: flex;
         flex-wrap: wrap;
-        color: #a5a4a3;
+        color: #575756;
         span{
           margin-left: 10px;
         }
