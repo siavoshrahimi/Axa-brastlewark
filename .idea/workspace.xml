@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9626121c-3f2e-420a-a3fa-4cf02c426808" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Card/Card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Card/Card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Detail/Detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Detail/Detail.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Card/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Pageination/Pageination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pageination/Pageination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Search/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/Store/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +29,17 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Component/with-spinner" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="F:/webstorm project/axa-brastlewark/node_modules/eslint" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\programing\webstorm project\axa-braslewark\src\Component\with-spinner" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -99,6 +110,11 @@
       <workItem from="1580235079968" duration="1765000" />
       <workItem from="1580321035753" duration="361000" />
       <workItem from="1581182313187" duration="1229000" />
+      <workItem from="1581357857143" duration="599000" />
+      <workItem from="1582047281776" duration="11555000" />
+      <workItem from="1582135826070" duration="9578000" />
+      <workItem from="1582222187115" duration="7475000" />
+      <workItem from="1582308247202" duration="2434000" />
     </task>
     <servers />
   </component>

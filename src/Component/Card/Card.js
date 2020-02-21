@@ -7,6 +7,7 @@ import './Card.scss';
 const card = ({allData,profileInfo}) =>{
   const {thumbnail,age,professions,friends,name} = profileInfo;
   const profileFriend = [];
+
   allData.map(profile => {
     friends.find(friend =>{
       if( friend === profile.name){
