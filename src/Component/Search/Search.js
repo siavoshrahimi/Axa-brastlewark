@@ -4,7 +4,7 @@ import {useDispatch, useSelector} from "react-redux";
 import './Search.scss';
 
 //search-select
-import Select from 'react-select';
+import SelectInput from "../selectInput/selectInput";
 import {searchByProfession} from "../../Redux/search/action";
 
 
@@ -28,14 +28,7 @@ const search = () =>{
       return(
 
         <div className="search-wrapper">
-            <Select
-                options={options}
-                value={options.value}
-                name="profession"
-                placeholder="Choose a profession"
-                onChange={onSelectOption}
-            />
-
+           <SelectInput options={options} onSelectOption={onSelectOption}/>
         </div>
       )
     }

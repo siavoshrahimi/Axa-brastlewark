@@ -2,7 +2,6 @@ import PaginationType from "./pageInationActionType";
 
 
 //get the current page
-debugger;
 export const getCurrentPage = page =>{
     return {
         type: PaginationType.GET_PAGE,

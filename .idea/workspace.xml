@@ -3,14 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9626121c-3f2e-420a-a3fa-4cf02c426808" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Card/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Card/Card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Card/Card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Detail/Detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Detail/Detail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Pageination/Pageination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Pageination/Pageination.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Search/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Search/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Store/Store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Spinner/Spiner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Spinner/Spiner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/pageInation/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/pageInation/action.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +114,9 @@
       <workItem from="1582047281776" duration="11555000" />
       <workItem from="1582135826070" duration="9578000" />
       <workItem from="1582222187115" duration="7475000" />
-      <workItem from="1582308247202" duration="2434000" />
+      <workItem from="1582308247202" duration="6098000" />
+      <workItem from="1582396085990" duration="1958000" />
+      <workItem from="1582476034418" duration="6716000" />
     </task>
     <servers />
   </component>

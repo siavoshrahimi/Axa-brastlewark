@@ -4,6 +4,10 @@ import {Link} from 'react-router-dom';
 //css
 import './Card.scss';
 
+import CardDetail from "./card-detail/CardDetail";
+import CardFriends from "./card-friends/CardFreinds";
+import CardProfession from "./card-profession/cardProfesion";
+
 const card = ({allData,profileInfo}) =>{
   const {thumbnail,age,professions,friends,name} = profileInfo;
   const profileFriend = [];
@@ -12,13 +16,11 @@ const card = ({allData,profileInfo}) =>{
     friends.find(friend =>{
       if( friend === profile.name){
         profileFriend.push(profile);
-        return true
+        return profileFriend
       }
-      else{
-        return false
-      }
+      return false
     });
-    return profileFriend
+    return true
   });
   return(
 
@@ -27,31 +29,18 @@ const card = ({allData,profileInfo}) =>{
           <div className='img-wrapper'>
             <img className='img' src={thumbnail} alt={name}/>
           </div>
-
-          <div className='card-detail'>
-            <span>Name:{name}</span>
-            <span>Age:{age}</span>
-          </div>
+          <CardDetail name={name} age={age} />
         </Link>
           <div className='professions'>
             <span><strong>Professions:</strong></span>
-            {professions.map(profession => (
-              <span className='profession' key={profession}>{profession}</span>
-            ))}
+            {professions.map(profession => <CardProfession key={profession}>{profession}</CardProfession>)}
           </div>
           <div className='friends'>
             <span>friends:</span>
             <div className='friends-img-wrapper'>
               {profileFriend[0] ?
-                profileFriend.map(friend =>{
-                  return <Link to={{pathname:`/detail/${name}`,state:{friend}}}
-                               title={friend.name}
-                               key={friend.id}>
-                    <img className='friends-img' src={friend.thumbnail} alt={friend.name}/>
-                  </Link>
-                }): <span>Has no friends</span>}
+                profileFriend.map(friend =><CardFriends friend={friend} key={friend.id}/>): <span>Has no friends</span>}
             </div>
-
           </div>
       </div>
 

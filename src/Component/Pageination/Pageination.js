@@ -11,19 +11,23 @@ import {faAngleDoubleRight, faAngleDoubleLeft} from '@fortawesome/free-solid-svg
 
 const Pagination = props => {
   const dispatch = useDispatch();
+  const scrollAtTop = () =>window.scroll(0,0);
+
   /*got to previous page*/
   const prevHandler = () =>{
     dispatch(PrevPageAction());
+    scrollAtTop();
   }
   /*go to next page*/
   const nextHandler = () => {
     dispatch(NextPageAction());
+    scrollAtTop();
   }
   /*select current page*/
   const changePageHandler = (event) =>{
     const currentPage=Number(event.target.innerText);
-    dispatch(getCurrentPage(currentPage))
-
+    dispatch(getCurrentPage(currentPage));
+    scrollAtTop();
   }
 
     const {currentPage,pages} = props;
