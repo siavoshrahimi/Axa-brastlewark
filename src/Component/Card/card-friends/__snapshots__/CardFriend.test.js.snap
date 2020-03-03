@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render card detail component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CardFriends
+    friend={
+      Object {
+        "id": 1,
+        "name": "david",
+        "thumbnail": "marc",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "1",
+    "nodeType": "class",
+    "props": Object {
+      "children": <img
+        alt="david"
+        className="friends-img"
+        src="marc"
+      />,
+      "title": "david",
+      "to": Object {
+        "pathname": "/detail/david",
+        "state": Object {
+          "friend": Object {
+            "id": 1,
+            "name": "david",
+            "thumbnail": "marc",
+          },
+        },
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "alt": "david",
+        "className": "friends-img",
+        "src": "marc",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "img",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "1",
+      "nodeType": "class",
+      "props": Object {
+        "children": <img
+          alt="david"
+          className="friends-img"
+          src="marc"
+        />,
+        "title": "david",
+        "to": Object {
+          "pathname": "/detail/david",
+          "state": Object {
+            "friend": Object {
+              "id": 1,
+              "name": "david",
+              "thumbnail": "marc",
+            },
+          },
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "david",
+          "className": "friends-img",
+          "src": "marc",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

@@ -1,0 +1,611 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render card component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <card
+    allData={Array []}
+    profileInfo={
+      Object {
+        "age": 23,
+        "friends": Array [
+          "david",
+          "jose",
+        ],
+        "name": "maria",
+        "professions": Array [
+          "metalWorker",
+        ],
+        "thumbnail": "jeff",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Link
+          to={
+            Object {
+              "pathname": "/detail/maria",
+              "state": Object {
+                "profileInfo": Object {
+                  "age": 23,
+                  "friends": Array [
+                    "david",
+                    "jose",
+                  ],
+                  "name": "maria",
+                  "professions": Array [
+                    "metalWorker",
+                  ],
+                  "thumbnail": "jeff",
+                },
+              },
+            }
+          }
+        >
+          <div
+            className="img-wrapper"
+          >
+            <img
+              alt="maria"
+              className="img"
+              src="jeff"
+            />
+          </div>
+          <CardDetail
+            age={23}
+            name="maria"
+          />
+        </Link>,
+        <div
+          className="professions"
+        >
+          <span>
+            <strong>
+              Professions:
+            </strong>
+          </span>
+          <CardProfession>
+            metalWorker
+          </CardProfession>
+        </div>,
+        <div
+          className="friends"
+        >
+          <span>
+            friends:
+          </span>
+          <div
+            className="friends-img-wrapper"
+          >
+            <span>
+              Has no friends
+            </span>
+          </div>
+        </div>,
+      ],
+      "className": "card",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              className="img-wrapper"
+            >
+              <img
+                alt="maria"
+                className="img"
+                src="jeff"
+              />
+            </div>,
+            <CardDetail
+              age={23}
+              name="maria"
+            />,
+          ],
+          "to": Object {
+            "pathname": "/detail/maria",
+            "state": Object {
+              "profileInfo": Object {
+                "age": 23,
+                "friends": Array [
+                  "david",
+                  "jose",
+                ],
+                "name": "maria",
+                "professions": Array [
+                  "metalWorker",
+                ],
+                "thumbnail": "jeff",
+              },
+            },
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="maria"
+                className="img"
+                src="jeff"
+              />,
+              "className": "img-wrapper",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "maria",
+                "className": "img",
+                "src": "jeff",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "age": 23,
+              "name": "maria",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              <strong>
+                Professions:
+              </strong>
+            </span>,
+            Array [
+              <CardProfession>
+                metalWorker
+              </CardProfession>,
+            ],
+          ],
+          "className": "professions",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <strong>
+                Professions:
+              </strong>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Professions:",
+              },
+              "ref": null,
+              "rendered": "Professions:",
+              "type": "strong",
+            },
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": "metalWorker",
+            "nodeType": "function",
+            "props": Object {
+              "children": "metalWorker",
+            },
+            "ref": null,
+            "rendered": "metalWorker",
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              friends:
+            </span>,
+            <div
+              className="friends-img-wrapper"
+            >
+              <span>
+                Has no friends
+              </span>
+            </div>,
+          ],
+          "className": "friends",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "friends:",
+            },
+            "ref": null,
+            "rendered": "friends:",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Has no friends
+              </span>,
+              "className": "friends-img-wrapper",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Has no friends",
+              },
+              "ref": null,
+              "rendered": "Has no friends",
+              "type": "span",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Link
+            to={
+              Object {
+                "pathname": "/detail/maria",
+                "state": Object {
+                  "profileInfo": Object {
+                    "age": 23,
+                    "friends": Array [
+                      "david",
+                      "jose",
+                    ],
+                    "name": "maria",
+                    "professions": Array [
+                      "metalWorker",
+                    ],
+                    "thumbnail": "jeff",
+                  },
+                },
+              }
+            }
+          >
+            <div
+              className="img-wrapper"
+            >
+              <img
+                alt="maria"
+                className="img"
+                src="jeff"
+              />
+            </div>
+            <CardDetail
+              age={23}
+              name="maria"
+            />
+          </Link>,
+          <div
+            className="professions"
+          >
+            <span>
+              <strong>
+                Professions:
+              </strong>
+            </span>
+            <CardProfession>
+              metalWorker
+            </CardProfession>
+          </div>,
+          <div
+            className="friends"
+          >
+            <span>
+              friends:
+            </span>
+            <div
+              className="friends-img-wrapper"
+            >
+              <span>
+                Has no friends
+              </span>
+            </div>
+          </div>,
+        ],
+        "className": "card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div
+                className="img-wrapper"
+              >
+                <img
+                  alt="maria"
+                  className="img"
+                  src="jeff"
+                />
+              </div>,
+              <CardDetail
+                age={23}
+                name="maria"
+              />,
+            ],
+            "to": Object {
+              "pathname": "/detail/maria",
+              "state": Object {
+                "profileInfo": Object {
+                  "age": 23,
+                  "friends": Array [
+                    "david",
+                    "jose",
+                  ],
+                  "name": "maria",
+                  "professions": Array [
+                    "metalWorker",
+                  ],
+                  "thumbnail": "jeff",
+                },
+              },
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="maria"
+                  className="img"
+                  src="jeff"
+                />,
+                "className": "img-wrapper",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "maria",
+                  "className": "img",
+                  "src": "jeff",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "age": 23,
+                "name": "maria",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                <strong>
+                  Professions:
+                </strong>
+              </span>,
+              Array [
+                <CardProfession>
+                  metalWorker
+                </CardProfession>,
+              ],
+            ],
+            "className": "professions",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <strong>
+                  Professions:
+                </strong>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Professions:",
+                },
+                "ref": null,
+                "rendered": "Professions:",
+                "type": "strong",
+              },
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": "metalWorker",
+              "nodeType": "function",
+              "props": Object {
+                "children": "metalWorker",
+              },
+              "ref": null,
+              "rendered": "metalWorker",
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                friends:
+              </span>,
+              <div
+                className="friends-img-wrapper"
+              >
+                <span>
+                  Has no friends
+                </span>
+              </div>,
+            ],
+            "className": "friends",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "friends:",
+              },
+              "ref": null,
+              "rendered": "friends:",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Has no friends
+                </span>,
+                "className": "friends-img-wrapper",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Has no friends",
+                },
+                "ref": null,
+                "rendered": "Has no friends",
+                "type": "span",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

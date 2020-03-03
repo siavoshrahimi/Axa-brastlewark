@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 import './Card.scss';
 
 import CardDetail from "./card-detail/CardDetail";
-import CardFriends from "./card-friends/CardFreinds";
+import CardFriends from "./card-friends/CardFriends";
 import CardProfession from "./card-profession/cardProfesion";
 
 const card = ({allData,profileInfo}) =>{
