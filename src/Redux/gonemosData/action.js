@@ -19,7 +19,7 @@ export const fetchGenomesDataFailure = error =>({
 export const fetchGenomesStartAsync = () =>{
     return dispatch =>{
         dispatch(fetchGenomesStart());
-        axios.get('https://raw.githubusercontent.com/rrafols/mobile_test/master/data.json')
+         return axios.get('https://raw.githubusercontent.com/rrafols/mobile_test/master/data.json')
             .then(res =>{
                 dispatch(fetchGenomesSuccess(res.data.Brastlewark));
                 dispatch(getAllProfessions(res.data.Brastlewark));

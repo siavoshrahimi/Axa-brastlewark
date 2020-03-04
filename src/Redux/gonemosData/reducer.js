@@ -18,7 +18,7 @@ const genomesDataReducer = (state= INITIAL_STATE , action) =>{
                 ...state,
                 genomeData: action.payload,
                 loading:false,
-                error: null,
+                error: "",
             }
         case GenomesDataActionType.FETCH_GENOMES_DATA_FAILURE:
             return {

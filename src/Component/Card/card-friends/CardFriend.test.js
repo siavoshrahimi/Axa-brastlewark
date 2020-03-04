@@ -11,6 +11,5 @@ it('expect to render card detail component' ,() =>{
         thumbnail: "marc",
     }
     const wrapper = shallow(<CardFriends friend={mockFriends} />);
-    console.log(wrapper.debug());
     expect(wrapper).toMatchSnapshot();
 })
